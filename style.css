@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+	padding: 10px;
+	font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+	min-width: 350px;
+	background-color: #f1f1fe;
+}
+
+input{
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box;
+	height: 50px;
+	font-size: 18px;
+	border: 0.2px solid #44b678;
+	border-radius: 8px;
+	color: #777;
+}
+
+button{
+	margin-top: 5px;
+	background-color: #44b678;
+    padding: 12px;
+	color: whitesmoke;
+	font-weight: bold;
+	border: 1px solid #44b678;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+#input-btn:hover {
+  background:  white;
+  color: #44b678;
+}
+#save-tab {
+	padding-left: 18px;
+	padding-right: 18px;
+}
+#save-tab:hover {
+  background:  white;
+  color: #44b678;
+}
+
+#delete-btn {
+	background-color: white;
+	color: #44b678;
+	padding-left: 22.5px;
+	padding-right: 22.5px;
+}
+
+#delete-btn:hover {
+	background: #44b678;
+	color: white;
+}
+
+ul{
+	list-style: disc;
+	padding-left: 17px;
+	margin-top: 20px;
+	color: #44b678;
+}
+
+li{
+	margin-top: 5px;
+}
+
+li a{
+	color: #44b678;
+	font-size: 18px;
+}
+
+#logo {
+	height: 40px;
+	width: 40px;
+	margin: 10px;
+}
+
+#title {
+	position: absolute;
+	top: 25px;
+	font-size: 25px;
+	font-weight: bolder;
+	font-family: cursive;
+	color: #44b678;
+}
